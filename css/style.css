@@ -78,6 +78,8 @@ body {
 
 .content {
 	padding: 0px 15px;
+	margin: 0 auto;
+	width: 970px;
 }
 
 /* Navigation Section */
@@ -86,9 +88,7 @@ body {
 }
 
 .top-navigation > .content {
-    width: 970px;
     height: 70px;
-    margin: 0 auto;
 }
 
 .top-navigation .logo {
@@ -98,6 +98,7 @@ body {
 .top-navigation .links {
 	float: right;
 	margin-top: 1.7rem;
+	color: #838994;
 
 }
 
@@ -114,4 +115,65 @@ body {
 .top-navigation .links li:hover; {
 	cursor: pointer;
 	color: #333333;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/* Buttons */
+button {
+	margin: 0;
+	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    width: 9.688rem ;
+    background-color: #f15a29;
+    font-size: 16px;
+    color: #fff;    
+    border-color: #f15a29;
+}
+
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+/* Introduction */
+.introduction {
+	background-image: url('../images/background.jpg');
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+}
+
+.introduction h1, 
+.introduction h3 {
+	color: #fff;
+	text-align: center;
+	font-weight: 300;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+
+.introduction .buttons {
+	color: white;
+	text-align: center;
+	margin-top: 25px;
 }

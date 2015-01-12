@@ -29,21 +29,23 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
 /* End of Reset */
 
 /* Start Custom Styles */
-
 body {
 	margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -57,10 +59,6 @@ body {
 	padding: 0 0.938rem;
 	margin: 0 auto;
 	width: 970px;
-}
-
-div {
-    border: 1px solid Chocolate;
 }
 
 a:link {
@@ -97,6 +95,7 @@ a:visited {
     margin-top: 25px;
     -webkit-font-smoothing: antialiased;
 }
+
 .top-navigation .links li {
     display: inline-block;
     margin-left: 25px;
@@ -150,13 +149,17 @@ button:hover {
 }
 
 .introduction h1 {
-	margin-top: 17.5rem;
 	font-size: 3.125rem;
 }
 
 .introduction h3 {
 	margin-top: 1.25rem;
 	font-size: 1.563rem;
+}
+
+.introduction .content {
+	position: relative; 
+	top:17.5rem;
 }
 
 .introduction .buttons {
@@ -250,4 +253,4 @@ button:hover {
   font-weight: 300;
   color: #838994;
 }
-
+/* End CSS */
